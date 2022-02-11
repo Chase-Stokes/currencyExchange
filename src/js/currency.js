@@ -1,11 +1,11 @@
 export default class ExchangeAPI {
-  static async getCurrencyAndRate() {
+  static async getCurrencyAndRate(amount, target) {
     try {
-      const response = await fetch(`https://v6.exchangerate-api.com/v6/${process.env.API_KEY}/pair/USD/GBP/AMOUNT`);
+      const response = await fetch(`https://v6.exchangerate-api.com/v6/${process.env.API_KEY}/pair/USD/${target}/${amount}`);
       if(!response.ok) {
         throw Error(response.statusText);
       }
-      return response.json;
+      return response.json();
     } catch(error) {
       return error.message;
     }

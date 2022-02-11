@@ -13,9 +13,9 @@
     <div class="box">
       <form id="formOne">
         <label for="USD">Enter amount of USD to convert:</label>
-        <input type="text" required>
+        <input type="text" id="amount" required>
         <label for="otherCurrency">Choose your currency to to convert to:</label>
-        <select name="selectCurrency" id="otherCurrency">
+        <select name="selectCurrency" id="target">
           <option value="AED">United Arab Emirates</option>
           <option value="AFN">Afghanistan</option>
           <option value="ALL">Albania</option>
@@ -175,7 +175,12 @@
           <option value="ZMW">Zambia</option>
           <option value="ZWL">Zimbabwe</option>
         </select>
+        <button class="btn-dark">Exchange</button>
       </form>
+    </div>
+    <div class="box1">
+      <p class="errors"></p>
+      <p class="output"></p>
     </div>
   </div>
 </body>
