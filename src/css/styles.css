@@ -1,12 +1,14 @@
 body {
-  background-color:black;
-  color: white;
+  background: linear-gradient(rgba(255, 255, 255, 0.8), rgba(110, 110, 110, 0.8)) fixed;
 }
 label {
   margin-bottom: 1em;
 }
 input {
   margin-bottom: 1em;
+}
+select {
+  text-align: center;
 }
 button {
   margin-top: 1em;
@@ -16,17 +18,31 @@ button {
   text-align: center;
   width: 35%;
   padding: 2em;
-  margin-left: auto;
-  margin-right: auto;
+  margin-left: 15%;
+  /* margin-left: auto;
+  margin-right: auto; */
   margin-top: 5em;
-  background: linear-gradient(rgba(87, 206, 87, 0.8), rgba(142, 216, 191,0.8))
+  background: linear-gradient(rgba(110, 110, 110, 0.8), rgba(255, 255, 255, 0.8))
 }
 .header {
+  border: 1px solid black;
   height: 15em;
   margin: 5em;
-  background: linear-gradient(rgba(87, 206, 87, 0.8), rgba(142, 216, 191,0.8))
+  background: linear-gradient(rgba(110, 110, 110, 0.8), rgba(255, 255, 255, 0.8));
+  text-align: center;
+  position: relative;
 }
 .header h1{
   position: absolute;
-  left: 25;
+  bottom: 0;
+  left: 0;
+  margin-bottom: 1em;
+  padding: .5em;
+}
+.header p{
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  margin-bottom: 1em;
+  padding: 1em;
 }
