@@ -1,3 +1,32 @@
 body {
-  background-color:aquamarine;
+  background-color:black;
+  color: white;
+}
+label {
+  margin-bottom: 1em;
+}
+input {
+  margin-bottom: 1em;
+}
+button {
+  margin-top: 1em;
+}
+.box {
+  border: 1px solid black;
+  text-align: center;
+  width: 35%;
+  padding: 2em;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 5em;
+  background: linear-gradient(rgba(87, 206, 87, 0.8), rgba(142, 216, 191,0.8))
+}
+.header {
+  height: 15em;
+  margin: 5em;
+  background: linear-gradient(rgba(87, 206, 87, 0.8), rgba(142, 216, 191,0.8))
+}
+.header h1{
+  position: absolute;
+  left: 25;
 }
