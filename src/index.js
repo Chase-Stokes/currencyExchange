@@ -26,5 +26,6 @@ $('document').ready(function(){
     let target = $('#target').val();
     makeApiCall(amount, baseCode, target);
     $('.box1').show();
-  })
-})
+    $('#amount').val("");
+  });
+});
