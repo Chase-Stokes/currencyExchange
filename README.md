@@ -26,7 +26,7 @@ _Use the given api to choose between currencies to convert and find the conversi
 * _run 'npm install' in your terminal from the projects root directory_
 * _create a file named .env in the root directory_
 * _sign up for an API key from https://www.exchangerate-api.com/_
-* _in the previously created .env file add_ API_KEY: api key from ExchangeRate-API _in a single line_
+* _in the previously created .env file add "API_KEY={Your-API-Key}" from ExchangeRate-API  in a single line_
 * _run 'npm run start'_
 * _You can find the documentation for the API [here](https://www.exchangerate-api.com/docs/standard-requests)._
 
